@@ -55,7 +55,7 @@
   },
   "route": {
     "default_domain_resolver": {
-      "server": "119.29.29.29"
+      "server": "direct"
     },
     "rules": [
       {
