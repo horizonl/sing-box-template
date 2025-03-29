@@ -13,6 +13,11 @@
         "server": "223.5.5.5",
         "detour": "direct"
       },
+            {
+        "type": "udp",
+        "tag": "dnspod",
+        "server": "119.29.29.29"
+      },
       {
         "tag": "fakeip",
         "type": "fakeip",
@@ -55,7 +60,7 @@
   },
   "route": {
     "default_domain_resolver": {
-      "server": "direct"
+      "server": "dnspod"
     },
     "rules": [
       {
