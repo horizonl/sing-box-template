@@ -55,7 +55,7 @@
   },
   "route": {
     "default_domain_resolver": {
-      "server": "ali"
+      "server": "119.29.29.29"
     },
     "rules": [
       {
