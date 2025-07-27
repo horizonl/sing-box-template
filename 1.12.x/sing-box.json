@@ -12,6 +12,11 @@
         "type": "https",
         "server": "223.5.5.5"
       },
+      {
+        "tag": "cf",
+        "type": "https",
+        "server": "aski.cloudflare-gateway.com"
+      },
             {
         "type": "udp",
         "tag": "dnspod",
@@ -54,7 +59,7 @@
         "server": "ali"
       }
     ],
-    "final": "google",
+    "final": "cf",
     "independent_cache": true
   },
   "route": {
