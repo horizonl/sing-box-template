@@ -2,12 +2,6 @@
   "dns": {
     "servers": [
       {
-        "tag": "google",
-        "type": "https",
-        "server": "8.8.8.8",
-        "detour": "proxy"
-      },
-      {
         "tag": "ali",
         "type": "https",
         "server": "223.5.5.5"
