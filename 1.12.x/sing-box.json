@@ -15,7 +15,8 @@
       {
         "tag": "cf",
         "type": "https",
-        "server": "aski.cloudflare-gateway.com"
+        "server": "aski.cloudflare-gateway.com",
+        "domain_resolver": "dnspod"
       },
             {
         "type": "udp",
