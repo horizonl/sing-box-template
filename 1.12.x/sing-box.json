@@ -7,6 +7,10 @@
         "server": "8.8.8.8",
         "detour": "proxy"
       },
+      {"tag": "linux",
+      "type": "https",
+      "server": "linux.ddd.oaifree.com"
+      },
       {
         "tag": "ali",
         "type": "https",
