@@ -9,7 +9,12 @@
       },
       {"tag": "linux",
       "type": "https",
-      "server": "linux.ddd.oaifree.com"
+      "server": "linux.ddd.oaifree.com",
+      "domain_resolver": "dnspod"
+      },
+      {"tag": "dnspod",
+      "type": "udp",
+      "server": "119.29.29.29"
       },
       {
         "tag": "ali",
@@ -53,12 +58,12 @@
         "server": "ali"
       }
     ],
-    "final": "google",
+    "final": "linux",
     "independent_cache": true
   },
   "route": {
     "default_domain_resolver": {
-      "server": "ali"
+      "server": "linux"
     },
     "rules": [
       {
